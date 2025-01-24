@@ -1,0 +1,147 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: url('JPS homepage bk.jpg') no-repeat center center/cover;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #c003a3;
+    color: white;
+}
+
+header .logo img {
+    width: 100px;
+    height: 110px;
+    border-radius: 80%;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    color: #ff9ced;
+}
+
+#hero {
+    text-align: center;
+    padding: 80px 20px;
+    background: url('JPS homepage bk.jpg') no-repeat center center/cover;
+    color: white;
+}
+
+#hero h1 {
+    font-size: 3rem;
+}
+
+#hero p {
+    font-size: 1.2rem;
+}
+
+#hero .btn-primary {
+    background-color: #ffcc00;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    color: #333;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+}
+
+#hero .btn-primary:hover {
+    background-color: #e6b800;
+}
+
+#about {
+    padding: 60px 20px;
+    background-color: white;
+    text-align: center;
+}
+
+#about h2 {
+    font-size: 2rem;
+}
+
+#about p {
+    font-size: 1rem;
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+#featured {
+    padding: 60px 20px;
+    background-color: #f9f9f9;
+}
+
+#featured h2 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.featured-groups {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.group-card {
+    background-color: white;
+    padding: 20px;
+    margin: 10px;
+    width: 250px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.group-card:hover {
+    transform: scale(1.05);
+}
+
+.group-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.group-card h3 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+
+.group-card p {
+    font-size: 1rem;
+    color: #555;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}

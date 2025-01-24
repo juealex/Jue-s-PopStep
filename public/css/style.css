@@ -27,4 +27,12 @@ ul {
 li {
     display: inline;
     margin-right: 20px;
+
+
 }
+.logo img {
+    width: 200px; 
+    height: 120px; 
+    border-radius: 50%; 
+    object-fit: cover; 
+ }

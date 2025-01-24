@@ -1,11 +1,11 @@
 import { Router } from 'express';
-import { homepageGetHandler } from './handler';
-import { todoGetHandler } from './handler';
+import { indexGetHandler, HomePageGetHandler } from './handler';
+
 
 const router = Router();
 
-router.get('/', homepageGetHandler);
+router.get('/', indexGetHandler);
 
-router.get('/home', todoGetHandler);
+router.get('/home', HomePageGetHandler);
 
 export default router;

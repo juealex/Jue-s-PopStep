@@ -1,7 +1,9 @@
 import { Request, Response } from 'express';
 
-export const homepageGetHandler = (req: Request, res: Response) => {
+export const indexGetHandler = (req: Request, res: Response) => {
     res.render('index');
 };
 
-export const todoGetHandler = (_: Request, res: Response) => {};
+export const HomePageGetHandler = (req: Request, res: Response) => {
+    res.render('HomePage');
+};
