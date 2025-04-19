@@ -4,24 +4,41 @@
     <%- include('partials/head') %>
 
 </head>
-<body>  
+<header>
+    <div class="backgroundlogo">
+        <img src="../images/Main logo.jpg" alt="Main Logo" />
+    </div>
+    <nav>
+        <ul>
+            <li><a href="/home">Home</a></li>
+            <li><a href="/groups">K-pop Groups</a></li>
+            <li><a href="/albums">Albums</a></li>
+            <li><a href="/news">News</a></li>
+            <li><a href="/dancetraining">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+<body class="homepg">  
         <section id="featured">
             <h2>Featured Groups</h2>
             <div class="featured-groups">
                 <div class="group-card">
-                    <img src="path-to-image" alt="Group 1">
+                    <a href="groups">
+                        <img src="../images/bplogo.jpg" alt="Suggestion" style="cursor: pointer;">
+                      </a>                      
                     <h3>Black Pink</h3>
-                    <p>Click to see all!</p>
                 </div>
                 <div class="group-card">
-                    <img src="path-to-image" alt="Group 2">
-                    <h3>Group Name 2</h3>
-                    <p>Brief description about the group.</p>
+                    <a href="groups">
+                    <img src="../images/BTSlogo.jpg" alt="Group 2" style="cursor: pointer;">
+                    </a>
+                    <h3>BTS</h3>
                 </div>
                 <div class="group-card">
-                    <img src="path-to-image" alt="Group 3">
-                    <h3>Group Name 3</h3>
-                    <p>Brief description about the group.</p>
+                    <a href="groups">
+                    <img src="../images/Baemonlogo.jpg" alt="Group 3" style="cursor: pointer;">
+                    </a>
+                    <h3>Baby Monster</h3>
                 </div>
             </div>
         </section>

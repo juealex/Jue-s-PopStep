@@ -7,3 +7,7 @@ export const indexGetHandler = (req: Request, res: Response) => {
 export const HomePageGetHandler = (req: Request, res: Response) => {
     res.render('HomePage');
 };
+
+export const groupsGetHandler = (req: Request, res: Response) => {
+    res.render('groups');
+};
