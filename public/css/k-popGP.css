@@ -4,7 +4,7 @@
     padding: 0;
     background-color: #000;
     
-    /* background-image:url('../images/bg.jpg'); */
+    background-image:url('../images/landing.jpg'); 
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -12,14 +12,13 @@
 }
 
 #searchBar {
-    width: 50%; /* Adjusted to take full width of the container */
+    width: 100%; /* Adjusted to take full width of the container */
     max-width: 98%; /* To maintain some spacing */
-    padding: 20px;
-    margin-left: 450px;
-    margin: 20px 450px 20px 450px;
-    border: 1px solid #f20bc0;
-    border-radius: 20px;
-    font-size: 20px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #c30707;
+    border-radius: 5px;
+    font-size: 16px;
     box-sizing: border-box; /* Ensure padding doesn't affect width */
 }
 

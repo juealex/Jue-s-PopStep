@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <title>K-pop Groups</title>
-    <%- include('partials/head') %>
+    <%- include('partials/head') %> 
 </head>
 <body class="gp">
 <header>
@@ -20,11 +20,11 @@
     </nav>
 </header>
 <body>
-    <div class="container">
-        <input type="text" id="searchBar" placeholder="Search photo...">
+<div class="top-search-box">
+    <input type="text" placeholder="Search groups..." onclick="window.location.href='/search';" readonly />
+</div>
 
 <section id="groups">
-    <h2>Explore K-pop Groups</h2>
     <div class="group-gallery">
         <div class="group-item">
             <a href="/blackpink">

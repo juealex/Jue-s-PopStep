@@ -14,7 +14,7 @@ body {
     width: 100px;
     height: auto;
     border-radius: 100%;
-    object-fit: cover;
+    object-fit: cover; 
     margin: 10px;
 }
 
@@ -43,7 +43,8 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #ff4081; /* nice pink hover color */
+    text-decoration: none;
+    color: #ff00ee; /* nice pink hover color */
 }
  #hero {
     text-align: center;
@@ -72,13 +73,15 @@ nav ul li a:hover {
 }
 
 #hero .btn-primary:hover {
+    list-style: none;
+    text-decoration: none;
     background-color: #d924be;
 } 
 
 /* About section */
 #about {
     padding: 70px 10px;
-    background-color: rgba(236, 130, 245, 0.85);
+    background-color: rgba(21, 21, 21, 0.85);
     margin: 40px;
     border-radius: 10px;
 }
@@ -101,4 +104,98 @@ footer {
     background-color: #ce39f7;
     color: white;
     padding-bottom: 10px;
+}
+
+.body {
+    height: 100%;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #ff00bb;
+    background-image: url('../images/search.jpg');   
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+ nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+} 
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #fd3298;
+}
+
+.backgroundlogo img {
+    width: 100px;
+    display: block;
+    margin: 0 auto;
+        }
+
+#search-section {
+    padding: 40px;
+    text-align: center;
+    background: #000000;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+.search-section input[type="text"] {
+    padding: 12px 20px;
+    width: 50%;
+    max-width: 400px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.search-section button {
+    padding: 12px 20px;
+    background-color: #ff0080;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.search-section button:hover {
+    background-color: #e0559e;
+}
+
+#resultsContainer ul {
+    list-style: none;
+    padding: 0;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#resultsContainer li {
+    background-color: white;
+    margin: 10px 0;
+    padding: 15px 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+a {
+    color: #ff69b4;
+}
+
+a:hover {
+    text-decoration: underline;
 }

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<head>
+    <title>Search</title>
+    <%- include('partials/head') %>
+</head>
+<body>
+    <div class="body">
+
+</div>
+<section class="search-section">
+    <h2>Search for K-pop Groups</h2>
+    <form id="searchForm" action="/searchresults.html" method="GET">
+        <input type="text" name="query" id="searchBox" placeholder="Type group name..." required />
+        <button type="submit">Search</button>
+    </form>
+</section>
+<script src="search.js"></script>
+</body>
+</html> 
